@@ -1,9 +1,5 @@
-import React from 'react';
 import * as S from './styles';
-import { FaDumbbell } from "react-icons/fa";
 import Button from '../../components/button';
-
-const bannerImage = require('../../assets/banner.png');
 
 export default function PersonalTraining() {
   return (
