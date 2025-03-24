@@ -46,7 +46,7 @@ export default function Testimonials() {
 
       <S.CarouselContainer>
         <S.Arrow onClick={prevSlide}>
-          <FaChevronLeft />
+          {FaChevronLeft({})}
         </S.Arrow>
 
         <S.CommentsWrapper style={{ transform: `translateX(-${index * (100 / itemsPerView)}%)`, transition: transition ? "transform 0.5s ease-in-out" : "none" }}>
@@ -59,7 +59,7 @@ export default function Testimonials() {
         </S.CommentsWrapper>
 
         <S.Arrow onClick={nextSlide}>
-          <FaChevronRight />
+        {FaChevronRight({})}
         </S.Arrow>
       </S.CarouselContainer>
     </S.Content>

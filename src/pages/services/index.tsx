@@ -8,22 +8,22 @@ const servicos = {
   treinamentoPersonalizado: {
     titulo: "Treinos Personalizados",
     descricao: "Experimente um treinamento individualizado, adaptado aos seus objetivos e habilidades.",
-    icone: <FaDumbbell /> // Ícone para Treinos Personalizados
+    icone: FaDumbbell({}) // Ícone para Treinos Personalizados
   },
   coachingVirtual: {
     titulo: "Atendimento On-line",
     descricao: "Faça seus treinos de qualquer lugar, com acompanhamento completo e orientação em tempo real, tudo online.",
-    icone: <FaLaptop /> // Ícone para Atendimento On-line
+    icone: FaLaptop({}) // Ícone para Atendimento On-line
   },
   planosDeTreinamento: {
     titulo: "Acompanhamento Individual",
     descricao: "Receba um acompanhamento exclusivo, com avaliações periódicas.",
-    icone: <FaUser /> // Ícone para Acompanhamento Individual
+    icone: FaUser({}) // Ícone para Acompanhamento Individual
   },
   acompanhamentoDeProgresso: {
     titulo: "Acompanhamento de Progresso",
     descricao: "Monitore suas conquistas e seja avaliado periodicamente.",
-    icone: <FaChartLine /> // Ícone para Acompanhamento de Progresso
+    icone: FaChartLine({}) // Ícone para Acompanhamento de Progresso
   }
 };
 

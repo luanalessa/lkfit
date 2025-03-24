@@ -1,11 +1,11 @@
-import React, { JSX } from 'react';
+import React, { JSX, ReactNode } from 'react';
 import * as S from './styles';
 
 interface BoxProps {
   href: string;
   title: string;
   description: string;
-  icon: JSX.Element; 
+  icon: ReactNode; 
 }
 
 const Box: React.FC<BoxProps> = ({ href, title, description, icon }) => {

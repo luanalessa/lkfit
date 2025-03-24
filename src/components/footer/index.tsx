@@ -12,13 +12,13 @@ const Footer: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaInstagram />
+            {FaInstagram({})}
           </S.SocialLink>
 
           <S.SocialLink 
             href="mailto:seuemail@email.com"
           >
-            <FaEnvelope />
+            {FaEnvelope({})}
           </S.SocialLink>
 
           <S.SocialLink 
@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaWhatsapp />
+            {FaWhatsapp({})}
           </S.SocialLink>
         </S.SocialLinks>
 
